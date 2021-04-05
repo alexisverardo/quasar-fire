@@ -16,7 +16,8 @@
 ## Run test
 * vendor/bin/phpunit tests/
 ## Test with Postman
-ML.postman_collection.json
+* To consider: Content-Type: application/json
+* ML.postman_collection.json
 
 ## Config Env Satelites (set positions satelites)
 KENOBIX=-500
