@@ -1,11 +1,14 @@
 ## Ejercicio resuelto Fuego de Quasar
-
+## DEMO
+* http://83.136.219.31:9999
+* change URL in ML.postman_collection.json
 ## Install server test
 ####Prerequisites
 * composer
 * php >7
 #### Install
 * composer install 
+* cp .env.example .env
 * php artisan key:generate
 ## Run server
 * php artisan serve
@@ -27,5 +30,3 @@ SKYWALKERY=-100
 SATOX=500
 
 SATOY=100
-
-
