@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "ecb034cb-9793-4350-aca7-7d809cfa7019",
+		"name": "ML",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "split",
+			"item": [
+				{
+					"name": "sato",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "split get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "kenobi",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "skywalker",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "topsecret",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"satelites\": [\n        {\n            \"name\": \"kenobi\",\n            \"distance\": 100.0,\n            \"message\": [\"este\", \"\", \"\", \"mensaje\", \"\"]\n        },\n                {\n            \"name\": \"skywalker\",\n            \"distance\": 115.5,\n            \"message\": [\"\", \"es\", \"\", \"\", \"secreto\"]\n        },\n                {\n            \"name\": \"sato\",\n            \"distance\": 142.7,\n            \"message\": [\"este\", \"\", \"un\", \"\", \"\"]\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/topsecret",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"topsecret"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
