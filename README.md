@@ -30,3 +30,6 @@ SKYWALKERY=-100
 SATOX=500
 
 SATOY=100
+
+## Wiki
+problem solved with the method: https://es.wikipedia.org/wiki/Trilateraci%C3%B3n
